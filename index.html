@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card Genrator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Container">
+        <div class="box">
+            <h1 class="title">Student Details</h1>
+            <form onsubmit="return false;">
+                <div class="field">
+                    <label for="StudentName">Student Name : </label>
+                    <input id="StudentName" type="text" required>
+                </div>
+                <div class="field">
+                    <label for="Address">Address : </label>
+                    <input id="Address" type="text">
+                </div>
+                <div class="field">
+                    <label for="DOB">Date of Birth : </label>
+                    <input id="DOB" type="date">
+                </div>
+                <div class="field">
+                    <label for="Class">Class : </label>
+                    <input id="Class" type="text">
+                </div>
+                <div class="field">
+                    <label for="RollNo">ROll Number : </label>
+                    <input id="RollNo" type="number">
+                </div>
+                <div class="field">
+                    <label for="ContactNumber">Contact Number : </label>
+                    <input id="ContactNumber" type="n">
+                </div>
+                <div class="field">
+                    <label for="photo">Photo for ID Card: </label>
+                    <input id="photo" type="file" required >
+                </div>
+                <div>
+                    <button class="btn" onclick="submitDetails()">Submit</button>
+                    <button class="btn" onclick=reset()>Clear all</button>
+                    <button onclick="change()">Change</button>
+                </div>
+        </div>
+        
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
