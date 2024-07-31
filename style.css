@@ -71,9 +71,6 @@ body{
 }
 
 @media print{
-    .body{
-        background-color: #ffffff;
-    }
     .printbtn{
         display: none;
     }
